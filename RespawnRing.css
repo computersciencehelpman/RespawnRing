@@ -1,0 +1,26 @@
+body {
+	background-image: url("images/RR Background image.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.welcome-text {
+	color: #c200ff;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
+
+.subtitle {
+	color: white;
+	font-weight: normal;
+	font-size: 1rem;
+}
