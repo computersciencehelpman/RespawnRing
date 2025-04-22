@@ -13,6 +13,35 @@ body {
 	position: relative;
 }
 
+.top-buttons {
+	position: fixed;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	gap: 20px;
+	z-index: 10;
+}
+
+.btn {
+	background-color: #8000ff;
+	color: white;
+	font-weight: bold;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 8px;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+	box-shadow: 0 0 10px #8000ff, 0 0 20px #8000ff;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	background-color: #a64dff;
+	box-shadow: 0 0 15px #a64dff, 0 0 25px #a64dff;
+}
+
+
 .sidebar {
 	position: fixed;
 	top: 20px;
