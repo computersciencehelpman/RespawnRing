@@ -13,7 +13,6 @@ body {
 	position: relative;
 }
 
-/* Sidebar with logos */
 .sidebar {
 	position: fixed;
 	top: 20px;
@@ -30,7 +29,22 @@ body {
 	cursor: pointer;
 }
 
-/* Welcome text styling */
+.rightbar {
+	position: fixed;
+	top: 20px;
+	right: 20px; /* pushes it to the rightmost side */
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	z-index: 10;
+}
+
+.rightbar img {
+	width: 40px;
+	height: auto;
+	cursor: pointer;
+}
+
 .welcome-text {
 	color: #c200ff;
 	font-size: 2rem;
