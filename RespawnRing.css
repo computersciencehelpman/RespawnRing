@@ -74,6 +74,44 @@ body {
 	cursor: pointer;
 }
 
+/* Base transition */
+.sidebar img,
+.rightbar img {
+	transition: all 0.3s ease;
+	transform: scale(1);
+}
+
+/* Twitter glow (X) */
+img.twitter:hover {
+	filter: drop-shadow(0 0 10px #1DA1F2) drop-shadow(0 0 20px #1DA1F2);
+	transform: scale(1.1);
+}
+
+/* Discord glow */
+img.discord:hover {
+	filter: drop-shadow(0 0 10px #5865F2) drop-shadow(0 0 20px #5865F2);
+	transform: scale(1.1);
+}
+
+/* Magic Eden glow */
+img.magiceden:hover {
+	filter: drop-shadow(0 0 10px #F70CFF) drop-shadow(0 0 20px #F70CFF);
+	transform: scale(1.1);
+}
+
+/* Tensor glow */
+img.tensor:hover {
+	filter: drop-shadow(0 0 10px #FFC300) drop-shadow(0 0 20px #FFC300);
+	transform: scale(1.1);
+}
+
+/* Bunnies & Homies glow */
+img.bunnies:hover {
+	filter: drop-shadow(0 0 10px #00FFC3) drop-shadow(0 0 20px #00FFC3);
+	transform: scale(1.1);
+}
+
+
 .welcome-text {
 	color: #c200ff;
 	font-size: 2rem;
